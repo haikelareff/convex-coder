@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
+import * as dotenv from 'dotenv';
 import { existsSync } from 'fs';
 import process from 'process';
-import * as dotenv from 'dotenv';
 
 // Load environment variables from .env.local if it exists
 if (existsSync('.env.local')) {
